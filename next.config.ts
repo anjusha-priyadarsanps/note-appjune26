@@ -15,6 +15,13 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  images: {
+    remotePatterns: [
+      {
+        hostname: "cdn-icons-gif.flaticon.com"
+      }
+    ]
+  }
 };
 
 export default nextConfig;
